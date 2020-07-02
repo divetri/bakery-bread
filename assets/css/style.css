@@ -46,42 +46,51 @@
   height: 530px;
   width: 100%;
   padding: 100px 0 100px 30px;
+  background-color: rgba(0,10,0,.2);
+  background-blend-mode: multiply;
 }
 
 .jumbotron h1 {
-  font-size: 60px;
+  font-size: 50px;
   color: #fff;
-  opacity: 0.8;
-  letter-spacing: 4.5px;
-  font-family: 'Great Vibes', cursive;
+  opacity: 0.9;
+  letter-spacing: 1.5px;
+  font-family: 'PT Serif', serif;
   margin-bottom: 8px;
 }
 
 .jumbotron h2 {
   color: #fff;
   opacity: 0.8;
-  margin-top: 60px;
+  margin: 30px 0px 60px 0px;
   font-size: 30px;
-  font-family: 'Roboto';
+  font-family: 'PT Serif', serif;
   font-weight: normal;
 }
 
-.jumbotron .order-button {
+.order-button {
   margin-top: 20px;
-  padding: 20px 35px;
+  padding: 20px 30px;
   color: white;
   display: inline-block;
-  opacity: 0.9;
+  opacity: 0.8;
   text-decoration: none;
-  border: 4px solid #820024;
-  text-align: center;
+  position: absolute;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: 18pt;
+  border-radius: 3pt;
+  background-color: #94032b;
 }
 .order-button:hover {
   opacity: 1;
   background-color: #94032b;
-  border: 4px solid #94032b;
 }
-
+.order-button:active{
+  opacity: 0.8;
+  background-color: #94032b;
+}
 
 .btn-nav {
   letter-spacing: 0.05rem;
