@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Bakery Bread</title>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Alex+Brush|Great+Vibes|Roboto' rel='stylesheet'>
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/responsive.css">
+
+</head>
+<body>
+	<nav class="topnav" id="myTopnav">
+		<a href="" class="logo">Bakery Bread</a>
+		<a href="#menu" class="list-nav btn-nav">Menu</a>
+		<a href="#delivery" class="list-nav btn-nav">Delivery</a>
+		<a href="#contact" class="list-nav btn-nav">Contact Us</a>
+		<a href="https://www.google.com/maps" class="list-nav btn-nav">Location</a>
+		<a href="#" class="icon" onclick="responsive()">
+			<i class="fa fa-bars"></i>
+		</a>
+	</nav>
+
+	<!-- Jumbotron -->
+	<section class="home" id="home">
+		<div class="jumbotron" style="background-image: url('assets/img/jumbotron-roti-unsplash.jpg');">
+			<h1>Real Pleasure is Not a Guilty</h1>
+			<h1>Simple, Fresh, and Best Recipes</h1>
+			<h2>Bakery With Variant Product and <br>Offering The Best Quality For You</h2>
+			<a href="#" class="order-button">Order Now!</a>
+		</div>
+	</section>
+
+
+
+	<script>
+		function responsive() {
+			var topnav = document.getElementById("myTopnav");
+			if (topnav.className === "topnav") {
+				topnav.className += " responsive";
+			} else {
+				topnav.className = "topnav";
+			}
+		}
+	</script>
+</body>
+</html>
