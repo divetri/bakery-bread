@@ -1,116 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Bakery Bread</title>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link href='https://fonts.googleapis.com/css?family=Alex Brush' rel='stylesheet'>
+    <style>A {text-decoration: none;} </style>
+  </head>
 
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link href='https://fonts.googleapis.com/css?family=Alex+Brush|Great+Vibes|Roboto' rel='stylesheet'>
-	<link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="assets/css/style.css">
-	<link rel="stylesheet" href="assets/css/responsive.css">
+  <body>
+    <header>
 
-</head>
-<body>
-	<nav class="topnav" id="myTopnav">
-		<a href="" class="logo">Bakery Bread</a>
-		<a href="#menu" class="list-nav btn-nav">Menu</a>
-		<a href="#membership" class="list-nav btn-nav">Membership</a>
-		<a href="#contact" class="list-nav btn-nav">Contact Us</a>
-		<a href="https://www.google.com/maps" class="list-nav btn-nav">Location</a>
-		<a href="#" class="icon" onclick="responsive()">
-			<i class="fa fa-bars"></i>
-		</a>
-	</nav>
-
-	<!-- Jumbotron -->
-	<section class="home" id="home">
-		<div class="jumbotron" style="background-image: url('assets/img/jumbotron-roti-unsplash.jpg');">
-			<h1>Real Pleasure is Not a Guilty</h1>
-			<h1>Simple, Fresh, and Best Recipes</h1>
-			<h2>Bakery With Variant Product and <br>Offering The Best Quality For You</h2>
-			<a href="#" class="order-button">Order Now!</a>
-		</div>
-	</section>
-	<section class="menu-section" id="menu">
-		<h1>Best Seller Menu</h1>
-		<div class="menu-container">
-		<div class="card-menu">
-              <img src="assets/img/brooke-lark-V4MBq8kue3U-unsplash.jpg">
-              <p>Assorted Fruit Donut</p>
+    </header>
+    <section class="main">
+      <div class="container">
+        <div class="container-2">
+          <div class="text">
+            <h1>Made  With Love</h1>
           </div>
-          <div class="card-menu">
-              <img src="assets/img/kim-daniels-OrkEasJeY74-unsplash.jpg">
-              <p>Milk Pie Berry</p>
+          <img class="img" src="https://ak9.picdn.net/shutterstock/videos/26865439/thumb/5.jpg" alt="">
+          <div class="text-2">
+            <h1>Finest Ingredients</h1>
           </div>
-          <div class="card-menu">
-              <img src="assets/img/anthony-espinosa-6iqpLKqeaE0-unsplash.jpg">
-              <p>Tiramisu Cake</p>
-          </div>
-          <div class="card-menu">
-              <img src="assets/img/dilyara-garifullina-I48gnI1Qs5o-unsplash.jpg">
-              <p>Strawberry Cake</p>
-          </div>
-          <div class="card-menu">
-              <img src="assets/img/deva-williamson-S2jw81lfrG0-unsplash.jpg">
-              <p>Macaroon Cake</p>
-          </div>
-          <div class="card-menu">
-              <img src="assets/img/leo-roza-5uerZn9OXTA-unsplash.jpg">
-              <p>Choco Cupcake</p>
-          </div>
+          <img class="img-2" src="https://videohive.img.customer.envatousercontent.com/files/9ffe75fb-9da1-43ce-a7f7-0b231bc4f589/inline_image_preview.jpg?auto=compress%2Cformat&fit=crop&crop=top&max-h=8000&max-w=590&s=755a05dff45281dc828c1d39b5694fa0" alt="">
+        </div>
+        <div class="lists">
+            <a class="button a" href="#">Our Story</a>
+            <a class="button b" href="#">Menu</a>
+            <a class="button c" href="#">Events</a>
+        </div>
       </div>
-      <h2>Menu</h2>
-      <div class="menu-item">
-	      <div class="menu-item-name">Assorted Fruit Donut</div>
-	      <div class="menu-item-price">$18</div>
-  	  </div>
-  	  <div class="menu-item">
-            <div class="menu-item-name">Milk Pie Berry</div>
-            <div class="menu-item-price">$19</div>
-      </div>
-      <div class="menu-item">
-	      <div class="menu-item-name">Tiramisu Cake</div>
-	      <div class="menu-item-price">$12</div>
-  	  </div>
-  	  <div class="menu-item">
-            <div class="menu-item-name">Strawberry Cake</div>
-            <div class="menu-item-price">$13</div>
-      </div>
-      <div class="menu-item">
-            <div class="menu-item-name">Macaroon Cake</div>
-            <div class="menu-item-price">$17</div>
-      </div>
-      <div class="menu-item">
-            <div class="menu-item-name">Choco Cupcake</div>
-            <div class="menu-item-price">$16</div>
-      </div>
-   	</section>
-   	<section class="form-section" id="membership">
-   		<div class="form">
-	        <h3>Join membership and get good offer</h3>
-	        <p>Fullname</p>
-	        <input >
-	        <p>Phone</p>
-	        <input>
-	        <p>E-mail</p>
-	        <input>
-	        <p>Message (optional)</p>
-	        <textarea ></textarea>
-	        <p>By hitting Submit button, you already joining our membership</p>
-	        <input class="form-submit" type="submit" value="Submit">
-    	</div>
-   	</section>
-
-	<script>
-		function responsive() {
-			var topnav = document.getElementById("myTopnav");
-			if (topnav.className === "topnav") {
-				topnav.className += " responsive";
-			} else {
-				topnav.className = "topnav";
-			}
-		}
-	</script>
-</body>
+    </section>
+    <footer>
+    </footer>
+  </body>
 </html>
