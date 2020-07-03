@@ -39,4 +39,119 @@
 }
 
 
-/*CSS UNTUK HOME ATAU JUMB
+/*CSS UNTUK HOME ATAU JUMBOTRON*/
+
+.jumbotron {
+  background-size: cover;
+  background-attachment: fixed;
+  height: 530px;
+  width: 100%;
+  padding: 100px 0 100px 30px;
+  background-color: rgba(0,10,0,.2);
+  background-blend-mode: multiply;
+}
+
+.jumbotron h1 {
+  font-size: 50px;
+  color: #fff;
+  opacity: 0.9;
+  letter-spacing: 1.5px;
+  margin-bottom: 8px;
+}
+
+.jumbotron h2 {
+  color: #fff;
+  opacity: 0.8;
+  margin: 30px 0px 60px 0px;
+  font-size: 30px;
+  font-weight: normal;
+}
+
+.order-button {
+  border-radius: 3pt;
+  margin-top: 20px;
+  padding: 20px 20px;
+  color: white;
+  background-color: #94032b;
+  opacity: 0.8;
+  text-decoration: none;
+  position: absolute;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: 18pt;
+}
+.order-button:hover {
+  opacity: 1;
+  background-color: #94032b;
+}
+.order-button:active{
+  opacity: 0.8;
+  background-color: #94032b;
+}
+
+
+.btn-nav {
+  letter-spacing: 0.05rem;
+  transition: 0.5s all ease-in-out;
+  position: relative;
+  background: transparent;
+}
+.btn-nav:before {
+  border-top: 0.3rem solid #820024;
+  border-bottom: 0.3rem solid #820024;
+  display: block;
+  position: absolute;
+  background: transparent;
+  content: "";
+  top: 0;
+  bottom: 0;
+  left: 100%;
+  right: 100%;
+  transition: 0.48s all ease-in-out;
+}
+.btn-nav:hover {
+  letter-spacing: 5px;
+}
+.btn-nav:hover:before {
+  left: 25%;
+  right: 25%;
+}
+
+/*HOME DAN JUMBOTRON SELESAI*/
+
+/*SECTION MENU*/
+.menu-section{
+  background-color: #aaa7a2;
+  margin: 40px 0;
+  padding: 20px 30px;
+  color: white;
+  text-align: center;
+  font-size: normal;
+}
+.menu-container{
+  background-color: #aaa7a2;
+  height:950px;
+}
+.card-menu {
+  float: left;
+  width: 33%;
+  margin-top: 10px;
+}
+.card-menu img{
+  height: 420px;
+}
+.menu-item {
+  padding: 20px 0 40px 0;
+  width: 50%;
+  font-size: 18px;
+  margin: auto;
+  color: #444;
+}
+.menu-item-name {
+  font-size: 20px;
+  float: left;
+}
+.menu-item-price {
+  float: right;
+}
