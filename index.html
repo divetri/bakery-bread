@@ -3,8 +3,77 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Bakery Bread</title>
-</head>
-<body>
-	
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Alex+Brush|Great+Vibes|Roboto' rel='stylesheet'>
+	<link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/stylemenu.css">
+	<link rel="stylesheet" href="assets/css/responsive.css">
+	<section class="menu-section" id="menu">
+		<h1>Best Seller Menu</h1>
+		<div class="menu-container">
+		<div class="card-menu">
+              <img src="assets/img/brooke-lark-V4MBq8kue3U-unsplash.jpg">
+              <p>Assorted Fruit Donut</p>
+          </div>
+          <div class="card-menu">
+              <img src="assets/img/kim-daniels-OrkEasJeY74-unsplash.jpg">
+              <p>Milk Pie Berry</p>
+          </div>
+          <div class="card-menu">
+              <img src="assets/img/anthony-espinosa-6iqpLKqeaE0-unsplash.jpg">
+              <p>Tiramisu Cake</p>
+          </div>
+          <div class="card-menu">
+              <img src="assets/img/dilyara-garifullina-I48gnI1Qs5o-unsplash.jpg">
+              <p>Strawberry Cake</p>
+          </div>
+          <div class="card-menu">
+              <img src="assets/img/deva-williamson-S2jw81lfrG0-unsplash.jpg">
+              <p>Macaroon Cake</p>
+          </div>
+          <div class="card-menu">
+              <img src="assets/img/leo-roza-5uerZn9OXTA-unsplash.jpg">
+              <p>Choco Cupcake</p>
+          </div>
+      </div>
+      <h2>Menu</h2>
+      <div class="menu-item">
+	      <div class="menu-item-name">Assorted Fruit Donut</div>
+	      <div class="menu-item-price">$18</div>
+  	  </div>
+  	  <div class="menu-item">
+            <div class="menu-item-name">Milk Pie Berry</div>
+            <div class="menu-item-price">$19</div>
+      </div>
+      <div class="menu-item">
+	      <div class="menu-item-name">Tiramisu Cake</div>
+	      <div class="menu-item-price">$12</div>
+  	  </div>
+  	  <div class="menu-item">
+            <div class="menu-item-name">Strawberry Cake</div>
+            <div class="menu-item-price">$13</div>
+      </div>
+      <div class="menu-item">
+            <div class="menu-item-name">Macaroon Cake</div>
+            <div class="menu-item-price">$17</div>
+      </div>
+      <div class="menu-item">
+            <div class="menu-item-name">Choco Cupcake</div>
+            <div class="menu-item-price">$16</div>
+      </div>
+   	</section>
+
+
+	<script>
+		function responsive() {
+			var topnav = document.getElementById("myTopnav");
+			if (topnav.className === "topnav") {
+				topnav.className += " responsive";
+			} else {
+				topnav.className = "topnav";
+			}
+		}
+	</script>
 </body>
 </html>
