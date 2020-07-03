@@ -1,0 +1,20 @@
+@media all and (max-width: 1000px) {
+  .button{
+    margin-bottom:70px;
+  }
+}
+@media all and (max-width: 670px) {
+  .img{
+    width:300px;
+    height:auto;
+  }
+  .img-2{
+    width:300px;
+    height:auto;
+  }
+  .button{
+    text-align:center;
+    margin:0 0 70px 0;
+    padding:75px 80px;
+  }
+}
