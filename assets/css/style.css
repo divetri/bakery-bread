@@ -5,6 +5,10 @@
   font-family: 'PT Serif', serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .topnav {
   background-color: #fff8e7;
   overflow: hidden;
